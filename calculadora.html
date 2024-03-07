@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Suma</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+
+<div class="wrapper">
+     <svg>
+         <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                Calculadora de Suma
+         </text>
+    </svg>
+</div>
+
+<div class="container">
+    <input type="text" id="numero1" placeholder="Ingrese el primer número">
+    <input type="text" id="numero2" placeholder="Ingrese el segundo número">
+    <button onclick="sumar()">Sumar</button>
+</div>
+
+<!-- Modal -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="cerrarModal()">&times;</span>
+        <h2 id="resultado" class="premio"></h2>
+    </div>
+</div>
+
+<script src="/js/calculadora.js"></script>
+
+</body>
+</html>
+
+

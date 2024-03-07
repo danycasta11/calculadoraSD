@@ -1,0 +1,132 @@
+/* Estilo para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-image: url("https://s1.best-wallpaper.net/wallpaper/m/1709/Binary-numbers-tunnel-digital-creative_m.webp");
+    background-size: cover;;
+}
+
+/* Estilo para el contenido del modal */
+.modal-content {
+    background-color: #6efc0f;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(112, 243, 118);
+    position: relative;
+}
+
+/* Estilo para el botón de cierre */
+.close {
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(3, 188, 245);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilo para el resultado (premio) */
+.premio {
+    text-align: center;
+    font-size: 24px;
+    color: #000705; /* Color dorado */
+    margin-bottom: 20px;
+}
+
+/* Estilos para la calculadora */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container input[type="text"] {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+}
+
+.container button {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: rgb(0, 7, 10);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #45a049;
+}
+
+
+input[type="text"] {
+    width: 70%; /* Ancho reducido */
+    max-width: 300px; /* Ancho máximo */
+    padding: 8px; /* Reducción del relleno */
+    margin: 10px auto; /* Centrado vertical y horizontal */
+    box-sizing: border-box;
+    border: 2px dashed #39ebb6;
+    border-radius: 40px;
+    font-size: 14px; /* Tamaño de fuente reducido */
+    background-color: #17ff02;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #6e6eff;
+    box-shadow: 0 0 5px #6e6eff;
+}
+
+body {
+    background-image: url("https://s1.best-wallpaper.net/wallpaper/m/1709/Binary-numbers-tunnel-digital-creative_m.webp");
+    background-size: cover; /* Esto asegura que la imagen de fondo cubra todo el área del body */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
+
+svg {
+	font-family: "Quantico", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #14FF01;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(0,204,2,0); stroke: rgba(20,255,1,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(0,204,2,0); stroke: rgba(20,255,1,1); }
+	80%  {fill: rgba(0,204,2,0); stroke: rgba(20,255,1,1); stroke-width: 3; }
+	100% {
+		fill: rgba(0,204,2,1); stroke: rgba(20,255,1,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+input {
+    -webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 6px 5px 15px 5px rgba(20,255,55,0); 
+box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 6px 5px 15px 5px rgba(20,255,55,0);
+
+}
